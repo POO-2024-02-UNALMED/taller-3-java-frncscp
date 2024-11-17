@@ -26,7 +26,7 @@ public class Control {
     }
 
     public void canalUp(){
-        if (tv.canal < 120 && tv.canal > 0){
+        if (tv.canal < 120 && tv.canal > 0 && tv.estado){
         tv.canal++;
         }
     }
