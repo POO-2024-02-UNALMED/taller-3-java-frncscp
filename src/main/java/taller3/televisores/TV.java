@@ -14,6 +14,7 @@ public class TV {
 
         this.marca = marca;
         this.estado = estado;
+        numTV++;
     }
 
     public Marca getMarca(){
